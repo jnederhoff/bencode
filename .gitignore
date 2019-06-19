@@ -2,6 +2,7 @@
 /cover
 /deps
 /.idea
+/.elixir_ls
 erl_crash.dump
 *.ez
 *.eqc-info
