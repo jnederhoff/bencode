@@ -1,5 +1,5 @@
 defmodule Bencode do
-  @type encodable :: binary | atom | Map | List | Integer
+  @type encodable :: binary | atom | map | list | integer
 
   @spec encode(encodable) :: {:ok, binary} | {:error, binary}
   def encode(data) do

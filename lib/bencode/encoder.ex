@@ -1,5 +1,5 @@
 defprotocol Bencode.Encoder do
-  @type encodable :: binary | atom | Map | List | Integer
+  @type encodable :: binary | atom | map | list | integer
 
   @spec encode!(encodable) :: binary | no_return
   def encode!(data)

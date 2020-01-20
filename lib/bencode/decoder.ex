@@ -1,5 +1,5 @@
 defmodule Bencode.Decoder do
-  @type encodable :: binary | atom | Map | List | Integer
+  @type encodable :: binary | atom | map | list | integer
 
   @moduledoc false
   alias Bencode.Decoder.Error
